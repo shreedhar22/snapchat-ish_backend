@@ -11,6 +11,7 @@ Logs are replicated in each server node by the leader and committed once they ar
 Added basic client for transferring images.
 
 ———————————————————————
+
 Implemented new mechanism for message delivery:
 
 -> Client sends request to any node 
