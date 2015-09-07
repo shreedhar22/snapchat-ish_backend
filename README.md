@@ -1,16 +1,17 @@
-﻿
+#Snapchat-ish_backend
+
 A scalable and eventually consistent image sending backend with no single point failure!
 
 
 Change log:
 
 Added RaftManager that would take care of Raft leader election and log replication.
-State pattern implemented for representing the current state of the nodes (follower, candidate, leader)
+State pattern implemented for representing the current state of the nodes (follower, candidate, leader).
 Logs are replicated in each server node by the leader and committed once they are passed on to a majority of nodes
 
 Added basic client for transferring images.
 
-———————————————————————
+——————————————————————
 
 Implemented new mechanism for message delivery:
 
